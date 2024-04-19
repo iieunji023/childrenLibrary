@@ -30,6 +30,7 @@ public class AdminSession {
 
     }
 
+    // 로그인한 정보가 담겨져있는 dto
     public AdminDto getAdminDto() {
         return adminDto;
 
@@ -37,5 +38,6 @@ public class AdminSession {
 
     public void setAdminDto(AdminDto adminDto) {
         this.adminDto = adminDto;
+
     }
 }

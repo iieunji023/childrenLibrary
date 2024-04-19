@@ -1,55 +1,63 @@
-package admin.member;
+package user.member;
 
-public class AdminDto {
+public class UserDto {
     private int no;
     private String id;
     private String pw;
     private String name;
     private String phone;
+    private String address;
     private String created_at;
 
-    public AdminDto(int no, String id, String pw, String name, String phone, String created_at) {
+    public UserDto(int no, String id, String pw, String name, String phone, String address, String created_at) {
         this.no = no;
         this.id = id;
         this.pw = pw;
         this.name = name;
         this.phone = phone;
+        this.address = address;
         this.created_at = created_at;
     }
 
-    public AdminDto(int no, String id, String name, String phone, String created_at) {
+    public UserDto(int no, String id, String name, String phone, String address, String created_at) {
         this.no = no;
         this.id = id;
         this.name = name;
         this.phone = phone;
+        this.address = address;
+        this.created_at = created_at;
+
+    }
+
+    public UserDto(String id, String pw, String name, String phone, String address) {
+        this.id = id;
+        this.pw = pw;
+        this.name = name;
+        this.phone = phone;
+        this.address = address;
+    }
+
+    public UserDto(String id, String pw) {
+        this.id = id;
+        this.pw = pw;
+    }
+
+    public UserDto(String id, String pw, String name, String phone, String address, String created_at) {
+        this.id = id;
+        this.pw = pw;
+        this.name = name;
+        this.phone = phone;
+        this.address = address;
         this.created_at = created_at;
     }
 
-    // 회원가입
-    public AdminDto(String id, String pw, String name, String phone) {
-        this.id = id;
+    public UserDto(String pw, String name, String phone, String address) {
         this.pw = pw;
         this.name = name;
         this.phone = phone;
+        this.address = address;
     }
 
-    // 로그인
-    public AdminDto(String id, String pw) {
-        this.id = id;
-        this.pw = pw;
-    }
-
-    public AdminDto(String pw, String name, String phone) {
-        this.pw = pw;
-        this.name = name;
-        this.phone = phone;
-
-    }
-
-    /*
-     * private으로 되어있기 떄문에 다른 곳에서 객체를 생성해도 불러올 수 없음.
-     * 이때 GETTER&SETTER라는 메서드를 통해 리턴값으로 해당 변수를 받아오기 때문에 접근할 수 있다.
-     */
     public int getNo() {
         return no;
     }
@@ -88,6 +96,14 @@ public class AdminDto {
 
     public void setPhone(String phone) {
         this.phone = phone;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public String getCreated_at() {
