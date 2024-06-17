@@ -27,3 +27,6 @@
 
 ## 설계
 [설계::Wiki](https://github.com/iieunji023/childrenLibrary/wiki/%EC%84%A4%EA%B3%84)
+
+## 시연
+[시연::Wiki](https://github.com/iieunji023/childrenLibrary/wiki/%EC%8B%9C%EC%97%B0)
