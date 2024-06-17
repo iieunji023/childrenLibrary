@@ -21,10 +21,8 @@ import user.config.BookUserConfig;
 import user.container.UserContainer;
 import user.member.UserController;
 import user.member.UserDao;
-import user.member.UserDto;
 import user.member.UserService;
 import user.member.impl.*;
-import user.session.UserSession;
 
 import java.util.Scanner;
 
@@ -52,14 +50,6 @@ public class Main {
         bookContainer.setBookController(new BookController());
         bookContainer.setBookService(new BookService());
         bookContainer.setBookDao(new BookDao());
-//        System.out.println("""
-//                ██╗     ██╗██████╗ ██████╗  █████╗ ██████╗ ██╗   ██╗
-//                ██║     ██║██╔══██╗██╔══██╗██╔══██╗██╔══██╗╚██╗ ██╔╝
-//                ██║     ██║██████╔╝██████╔╝███████║██████╔╝ ╚████╔╝\s
-//                ██║     ██║██╔══██╗██╔══██╗██╔══██║██╔══██╗  ╚██╔╝ \s
-//                ███████╗██║██████╔╝██║  ██║██║  ██║██║  ██║   ██║  \s
-//                ╚══════╝╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝\s
-//                """);
 
         System.out.println("\u001B[32m"
                 + "██╗     ██╗██████╗ ██████╗  █████╗ ██████╗ ██╗   ██╗\n"
