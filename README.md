@@ -26,4 +26,4 @@
     </div>
 
 ## 설계
-[설계](https://github.com/iieunji023/childrenLibrary/wiki/%EC%84%A4%EA%B3%84)
+[설계::Wiki](https://github.com/iieunji023/childrenLibrary/wiki/%EC%84%A4%EA%B3%84)
