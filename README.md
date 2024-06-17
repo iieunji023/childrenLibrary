@@ -1,4 +1,4 @@
-## 도서관리시스템 미니 프로젝트
+## 📖도서관리시스템 미니 프로젝트📖
 ![logo](https://github.com/iieunji023/childrenLibrary/blob/main/img/logo.png)
 
 ## 프로젝트 소개
